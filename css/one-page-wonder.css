@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Lato';
+  overflow-x : hidden
 }
 
 h1,
@@ -690,3 +691,19 @@ row {
   width: 8%;
   height: 8%;
 }
+
+.abutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {background-color: #0057FF;} /* Blue */ 
+
