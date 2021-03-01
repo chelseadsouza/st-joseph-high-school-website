@@ -211,7 +211,7 @@ header.masthead .bg-circle-4 {
 .buttonb {background-color: #f44336;}
 
 .page-section {
-  padding: 2rem 0;
+  padding: 2rem 2rem 2rem 2rem;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -235,7 +235,7 @@ header.masthead .bg-circle-4 {
 .team-member img {
   width: 15rem;
   height: 15rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.2rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4 {
   margin-top: 1.5rem;
@@ -246,6 +246,7 @@ header.masthead .bg-circle-4 {
 
 .rounded-circlee {
   border-radius: 50% !important;
+  width: 1rem;
 }
 
 .img-fluids {
@@ -309,6 +310,7 @@ header.masthead .bg-circle-4 {
 --------------------------------------------------------------*/
 .departments {
   overflow: hidden;
+
 }
 
 .departments .nav-tabs {
@@ -316,8 +318,8 @@ header.masthead .bg-circle-4 {
 }
 
 .departments .nav-link {
-  border: 0;
-  padding: 12px 15px 12px 0;
+  border: 3px;
+  padding: 12px 15px 12px 5px;
   transition: 0.3s;
   color: #2c4964;
   border-radius: 0;
@@ -374,7 +376,7 @@ header.masthead .bg-circle-4 {
 #hero {
   width: 100%;
   height: 70vh;
-  background: url("../img/back1.jpg") center;
+  background: url("../img/roof.jpg") center;
   background-size: cover;
   position: relative;
   margin-bottom: 0px;
@@ -462,7 +464,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 
 .ftco-intro{
-    padding:8em 0;
+    padding:10em 0;
     width:100%;
     height:100%;
     position:inherit;
