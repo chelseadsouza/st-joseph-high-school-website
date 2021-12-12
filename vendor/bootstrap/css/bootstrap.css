@@ -4,6 +4,45 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ .container-button {
+  max-width: 600px;
+  position: absolute;
+  left: 80%;
+  right: 0;
+  top: 50%;
+  margin: 0 auto;
+  text-align: center;
+  transform: translateY(-50%);
+ }
+
+ .button2 {
+   border-radius: 8px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+  .button {
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button2:hover {
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+
+
+  
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
