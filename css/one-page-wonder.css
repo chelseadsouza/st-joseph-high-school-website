@@ -19,6 +19,21 @@ h6 {
   font-weight: 800 !rportant;
 }
 
+.navbar-collapse{
+  -ms-flex-preferred-size:100%;
+  flex-basis:100%;
+  -webkit-box-flex:1;
+  -ms-flex-positive:1;
+  flex-grow:1;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center
+}
+
+.nav-link{
+  color:rgba(0,0,0,0)
+}
+
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
@@ -57,11 +72,13 @@ h6 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  padding-right: 0.9rem;
+  padding-left: 0.9rem;
 }
 
 .nav-link {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
 }
 
 ol,
@@ -317,16 +334,7 @@ header.masthead .bg-circle-4 {
   border: 0;
 }
 
-.departments .nav-link {
-  border: 3px;
-  padding: 12px 15px 12px 5px;
-  transition: 0.3s;
-  color: #2c4964;
-  border-radius: 0;
-  border-right: 2px solid #ebf1f6;
-  font-weight: 600;
-  font-size: 15px;
-}
+
 
 
 
@@ -365,8 +373,8 @@ header.masthead .bg-circle-4 {
     padding: 15px;
   }
   .departments .nav-link.active {
-    color: #fff;
-    background: #1977cc;
+    color: rgb(255, 255, 255);
+    background: #540000;
   }
 }
 
@@ -532,13 +540,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 
 .nav-link:hover {
-  background-color: white;
+  background-color: rgb(128, 4, 4);
   color: #000000;
 }
 
 .nav-link {
-  background-color: #D0D0D0;
-  color: #000000;
+  color: rgb(255, 255, 255);
+    background: #540000;
 }
 
 
