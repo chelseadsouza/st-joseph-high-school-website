@@ -19,6 +19,23 @@ h6 {
   font-weight: 800 !rportant;
 }
 
+.admission2 {border-radius: 4px;}
+.admission {
+  background-color: #000072; /* Green */
+  border: 1px solid #e7e7e7;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+.admission:hover {
+  background-color: #00003f;
+  color: white;
+}
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
